@@ -5,8 +5,7 @@ final ThemeData themeData = ThemeData(
   appBarTheme: appBarTheme,
 );
 
-final ColorScheme colorScheme = ColorScheme.fromSeed(
-  seedColor: Color.fromRGBO(233, 234, 243, 0),
+final ColorScheme colorScheme = ColorScheme.light().copyWith(
   surface: Color.fromRGBO(5, 30, 37, 1),
   primary: Colors.white,
   secondary: Color.fromRGBO(28, 50, 57, 1)
